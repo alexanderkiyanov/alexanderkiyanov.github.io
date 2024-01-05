@@ -1,9 +1,42 @@
-<mxfile host="app.diagrams.net" modified="2024-01-05T07:36:25.103Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:121.0) Gecko/20100101 Firefox/121.0" version="22.1.16" etag="VcKSaHVRs4dOKRQ0TLN7" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-05T07:51:31.435Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:121.0) Gecko/20100101 Firefox/121.0" etag="kKUn3UoeEq0cDhw9y6n2" version="22.1.16" type="github">
   <diagram name="Page-1" id="RlnHIqVCdO8psejNufhV">
-    <mxGraphModel>
+    <mxGraphModel dx="1050" dy="566" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="gScuPnIuq_rzqe0TvjAH-8" value="&#xa;&amp;nbsp;namespace: network-testing&#xa;&#xa;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="170" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="gScuPnIuq_rzqe0TvjAH-1" value="&lt;div&gt;pod-2&lt;/div&gt;&lt;div&gt;labels: name:pod-2&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="190" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gScuPnIuq_rzqe0TvjAH-4" value="&lt;div&gt;service-1&lt;/div&gt;&lt;div&gt;selector: name: pod-1&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="190" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gScuPnIuq_rzqe0TvjAH-2" value="&lt;div&gt;pod-1&lt;/div&gt;&lt;div&gt;labels: name:pod-1&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="190" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gScuPnIuq_rzqe0TvjAH-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gScuPnIuq_rzqe0TvjAH-1" target="gScuPnIuq_rzqe0TvjAH-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gScuPnIuq_rzqe0TvjAH-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gScuPnIuq_rzqe0TvjAH-4" target="gScuPnIuq_rzqe0TvjAH-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gScuPnIuq_rzqe0TvjAH-9" value="192.168.66.121:80" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="115" y="233" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gScuPnIuq_rzqe0TvjAH-10" value="192.168.66.122:80" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="555" y="233" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gScuPnIuq_rzqe0TvjAH-11" value="10.110.166.18:8000" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="345" y="233" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gScuPnIuq_rzqe0TvjAH-12" value="" style="endArrow=classicThin;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;dashed=1;dashPattern=1 4;endFill=1;" edge="1" parent="1" source="gScuPnIuq_rzqe0TvjAH-11" target="gScuPnIuq_rzqe0TvjAH-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="445" y="393" as="sourcePoint" />
+            <mxPoint x="495" y="343" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
